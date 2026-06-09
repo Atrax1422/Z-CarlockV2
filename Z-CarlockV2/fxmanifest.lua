@@ -1,0 +1,18 @@
+fx_version 'cerulean'
+
+game 'gta5'
+
+author 'Zenon Studios'
+description 'Carlock Script V2'
+version '2.0.0'
+
+shared_script 'config.lua'
+
+client_scripts {
+    'client.lua'
+}
+
+server_scripts {
+    '@mysql-async/lib/MySQL.lua',
+    'server.lua'
+}
